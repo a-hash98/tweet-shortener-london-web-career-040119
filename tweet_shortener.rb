@@ -18,10 +18,11 @@ def word_substituter(tweet)
   dictionary.each do |word,abrev|
     for item in t
       if item == word.to_s
-        print item
+        item = abrev.to_s
       end
     end
   end
+  print t
 end
 
 
