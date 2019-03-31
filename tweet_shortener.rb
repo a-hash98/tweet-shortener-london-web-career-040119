@@ -19,8 +19,8 @@ def word_substituter(tweet)
   for item in t
     if k.include?(item)
       print "yes"
-      item = dictionary[:item]
-      print item
+      print dictionary[:item]
+      #print item
     end
   end
   #print t
