@@ -21,6 +21,7 @@ def word_substituter(tweet)
       print "yes"
     else
       print "no"
+      print item
     end
   end
   #for item in tweet
