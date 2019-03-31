@@ -13,6 +13,7 @@ end
 def word_substituter(tweet)
   tweet.split(",")
 return tweet
+end
 
 
 # Write your code here.
