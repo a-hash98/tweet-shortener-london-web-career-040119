@@ -21,7 +21,7 @@ def word_substituter(tweet)
     if dictionary.keys.include(item)
       print item
       print "okay"
-
+    end
 end
 
 word_substituter("Hello be you")
