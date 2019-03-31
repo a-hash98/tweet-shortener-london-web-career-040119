@@ -29,6 +29,7 @@ def word_substituter(tweet)
         end
       end
     end
+  
   end
   print shortened
 end
