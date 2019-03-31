@@ -22,7 +22,7 @@ def word_substituter(tweet)
         item = abrev.to_s
         shortened.push(item)
       else
-        shortened.push(item)  
+        shortened.push(item)
       end
     end
   end
