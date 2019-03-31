@@ -14,16 +14,19 @@ def dictionary
 end
 
 def word_substituter(tweet)
+  shortened = []
   t = tweet.split(" ")
   dictionary.each do |word,abrev|
     for item in t
       if item == word.to_s
         item = abrev.to_s
-        print item
+        shortened.push(item)
+      else
+        shortened.push(item)  
       end
     end
   end
-  print t
+  print shortened
 end
 
 
