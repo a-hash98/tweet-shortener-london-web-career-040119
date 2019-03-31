@@ -15,11 +15,12 @@ end
 
 def word_substituter(tweet)
   t = tweet.split(" ")
-  k = dictionary.keys.to_s
+  k = dictionary.keys.to_s.split(" ")
   for item in t
     if k.include?(item)
       print "yes"
-      print dictionary[:item]
+      print k.index(item)
+      print dictionary[:#{item]
       #print item
     end
   end
