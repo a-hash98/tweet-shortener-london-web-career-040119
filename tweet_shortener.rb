@@ -16,9 +16,9 @@ end
 def word_substituter(tweet)
   t = tweet.split(" ")
   k = dictionary.keys.to_s
-  print k
   for item in t
     if k.include?(item)
+      print "yes"
       item = dictionary.values[k.index(item)]
       print item
     end
