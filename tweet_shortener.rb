@@ -20,7 +20,7 @@ def word_substituter(tweet)
     if k.include?(item)
       print "yes"
       print k.index(item)
-      print dictionary[:#{item]
+      #print dictionary[:#{item]
       #print item
     end
   end
