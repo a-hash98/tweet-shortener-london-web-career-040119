@@ -21,6 +21,7 @@ def word_substituter(tweet)
         print item
       end
     end
+  end
 end
 
 
