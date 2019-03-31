@@ -16,13 +16,12 @@ end
 def word_substituter(tweet)
   t = tweet.split(" ")
   dictionary.each do |word,abrev|
-    if word.to_s in t
-      print t.index[word.to_s]
-      #print dictionary[:#{item]
-      #print item
+    for item in t
+      if item == word.to_s
+        print item
+      end
     end
-  end
-end
+        
 
 word_substituter("Hello be you")
 
