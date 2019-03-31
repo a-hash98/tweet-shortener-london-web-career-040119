@@ -21,6 +21,7 @@ def word_substituter(tweet)
       print "yes"
     else
       print "no"
+    end
   end
   #for item in tweet
   #  if dictionary.keys.include(item)
