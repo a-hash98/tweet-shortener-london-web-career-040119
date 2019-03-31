@@ -12,7 +12,7 @@ end
 
 def word_substituter(tweet)
   tweet.split(",")
-  for item in tweet
+  tweet.each do |item|
     if dictionary.keys.include(item)
       item = dictionary[item]
     end
