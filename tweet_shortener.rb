@@ -24,13 +24,10 @@ def word_substituter(tweet)
           shortened.push(item)
         end
       else
-        if !shortened.include?(item)
           shortened.push(item)
-        end
+      end
       end
     end
-
-  end
   print shortened
 end
 
