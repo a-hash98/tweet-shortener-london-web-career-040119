@@ -16,7 +16,11 @@ end
 def word_substituter(tweet)
   tweet.split(",")
   k = dictionary.keys
-  puts k
+  
+  for item in tweet
+    if item in dictionary.keys
+      print item
+      print "okay"
 
 end
 
