@@ -17,12 +17,12 @@ def word_substituter(tweet)
   tweet.split(",")
   k = dictionary.keys
   print tweet
-  for item in tweet
-    if dictionary.keys.include(item)
-      print item
-      print "okay"
-    end
-end
+  #for item in tweet
+  #  if dictionary.keys.include(item)
+  #    print item
+  #    print "okay"
+  #  end
+#end
 end
 
 word_substituter("Hello be you")
