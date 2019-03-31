@@ -16,22 +16,15 @@ end
 def word_substituter(tweet)
   t = tweet.split(" ")
   k = dictionary.keys.to_s.split(" ")
-  for item in t
-    if k.include?(item)
-      print "yes"
-      print k.index(item)
+  print k
       #print dictionary[:#{item]
       #print item
     end
   end
-  #print t
-  #for item in tweet
-  #  if dictionary.keys.include(item)
-  #    print item
-  #    print "okay"
-  #  end
-#end
+  
 end
+
+def 
 
 word_substituter("Hello be you")
 
