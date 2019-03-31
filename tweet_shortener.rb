@@ -23,6 +23,7 @@ def word_substituter(tweet)
       print "okay"
     end
 end
+end
 
 word_substituter("Hello be you")
 
