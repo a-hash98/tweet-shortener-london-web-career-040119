@@ -1,4 +1,5 @@
-dictionary = {
+def dictionary
+  dictionary ={
   "hello": "hi"
   "to, two, too": "2"
   "for, four": "4"
@@ -7,4 +8,17 @@ dictionary = {
   "at": "@"
   "and": "&"
 }
+end
+
+def word_substituter(tweet)
+  tweet.split(",")
+  for item in tweet
+    if item in dictionary.keys
+      item = dictionary[item]
+    end
+  end
+  return tweet.join(" ")
+end
+      
+  
 # Write your code here.
