@@ -19,12 +19,11 @@ def word_substituter(tweet)
   print k
   for item in t
     if k.include?(item)
-      print "yes"
-    else
-      print "no"
+      item = dictionary.values[k.index(item)]
       print item
     end
   end
+  print t
   #for item in tweet
   #  if dictionary.keys.include(item)
   #    print item
