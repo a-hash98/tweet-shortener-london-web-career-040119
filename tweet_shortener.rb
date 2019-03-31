@@ -20,9 +20,13 @@ def word_substituter(tweet)
     for item in t
       if item == word.to_s
         item = abrev.to_s
-        shortened.push(item)
+        if !shortened.include(item)
+          shortened.push(item)
+        end
       else
-        shortened.push(item)
+        if !shortened.include(item)
+          shortened.push(item)
+        end
       end
     end
   end
