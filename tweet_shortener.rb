@@ -24,7 +24,7 @@ def word_substituter(tweet)
       print item
     end
   end
-  print t
+  #print t
   #for item in tweet
   #  if dictionary.keys.include(item)
   #    print item
