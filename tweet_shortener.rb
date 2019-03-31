@@ -19,12 +19,7 @@ def word_substituter(tweet)
   print k
       #print dictionary[:#{item]
       #print item
-    end
-  end
-
 end
-
-def
 
 word_substituter("Hello be you")
 
