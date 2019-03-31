@@ -12,8 +12,11 @@ end
 
 def word_substituter(tweet)
   tweet.split(",")
-return tweet
+  k = dictionary.keys
+  puts k
+
 end
 
+word_substituter("Hello be you")
 
 # Write your code here.
