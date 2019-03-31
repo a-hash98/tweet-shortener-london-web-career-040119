@@ -9,11 +9,10 @@ def dictionary
   :be => "b",
   :you => "u",
   :at => "@",
-  :and => "&",
 }
 end
 
-dictionary.fetch(be)
+dictionary.fetch("be")
 
 def word_substituter(tweet)
   shortened = []
