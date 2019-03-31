@@ -21,7 +21,8 @@ def word_substituter(tweet)
         print item
       end
     end
-        
+end
+
 
 word_substituter("Hello be you")
 
