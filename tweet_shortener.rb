@@ -13,7 +13,7 @@ def dictionary
 }
 end
 
-dictionary.to_s.fetch("be")
+dictionary.fetch("be")
 
 def word_substituter(tweet)
   shortened = []
