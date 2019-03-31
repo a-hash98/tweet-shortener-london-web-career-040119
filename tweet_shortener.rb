@@ -15,7 +15,7 @@ end
 
 def word_substituter(tweet)
   t = tweet.split(" ")
-  k = dictionary.keys.to_s.split(" ")
+  k = dictionary.keys.to_s
   print k
       #print dictionary[:#{item]
       #print item
