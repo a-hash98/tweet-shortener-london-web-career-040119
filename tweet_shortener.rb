@@ -21,10 +21,10 @@ def word_substituter(tweet)
       #print item
     end
   end
-  
+
 end
 
-def 
+def
 
 word_substituter("Hello be you")
 
